@@ -1,1 +1,6 @@
-spring.application.name=myspb
+spring:
+  datasource:
+    username: root
+    password: zrq123
+    url: jdbc:mysql://127.0.0.1:3306/tx_test?characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
